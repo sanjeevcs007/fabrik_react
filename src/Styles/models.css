@@ -1,0 +1,26 @@
+#model {
+  background: url(./fabrik2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+}
+
+#model .dark-overlay {
+  position: absolute;
+  top: 150;
+  left: 0;
+  width: 100%;
+  min-height: 450px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  #model {
+    min-height: 700px;
+  }
+  #model .dark-overlay {
+    min-height: 700px;
+  }
+}

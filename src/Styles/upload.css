@@ -1,0 +1,26 @@
+#upload {
+  background: url(./fabrik2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+}
+
+#upload .dark-overlay {
+  position: absolute;
+  top: 150;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  #upload {
+    min-height: 700px;
+  }
+  #upload .dark-overlay {
+    min-height: 700px;
+  }
+}

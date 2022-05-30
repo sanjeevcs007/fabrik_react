@@ -1,0 +1,30 @@
+#home {
+  background: url(./fabrik2.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+}
+
+#home .dark-overlay {
+  position: absolute;
+  top: 150;
+  left: 0;
+  width: 100%;
+  min-height: 500px;
+  background: rgba(0, 0, 0, 0.7);
+}
+
+#home p {
+  font-size: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  #home {
+    min-height: 700px;
+  }
+  #home .dark-overlay {
+    min-height: 700px;
+  }
+}
